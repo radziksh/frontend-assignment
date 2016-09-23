@@ -1,3 +1,9 @@
+# comments:
+D3.js library still doesn't support reactive programming that is why I decided to choose react-dnd library (author Dan Abramov) for drag & drop.
+D3 library was used only for creating grid. There is another library react-d3 which is partially rewritten D3 library. It works well with react but due to strict requirement to used D3.
+On the first look basing on commits history you'll get impression that I started from general components (Assignment->(Sidebar/MainView)->(Chart/Grid)->Square->Marker) but it just result that I committed in the end. 
+In reality I started from small components to general in such order: Marker->Square->(Chart/Grid)->(Sidebar/MainView) -> Assignment -> and add it to routing.
+
 # frontend-assignment
 Fork this seed project on Github to create your assignment.
 
