@@ -34,5 +34,13 @@ describe('(Component) Header', () => {
         </Link>
       )).to.be.true
     })
+
+    it('Should render a Link to Assignment route', () => {
+      expect(_wrapper.contains(
+        <Link activeClassName={classes.activeRoute} to='/assignment'>
+          Assignment
+        </Link>
+      )).to.be.true
+    })
   })
 })
